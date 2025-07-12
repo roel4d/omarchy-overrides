@@ -15,4 +15,10 @@ return {
 			},
 		},
 	},
+	{
+		"nvim-neo-tree/neo-tree.nvim",
+		keys = {
+			{ "\\", ":Neotree reveal=true position=float toggle=true<CR>", desc = "Toggle Neo-tree Float" },
+		},
+	},
 }
