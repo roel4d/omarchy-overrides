@@ -1,6 +1,8 @@
 -- symlink to ~/.config/nvim/lua/plugins/custom.lua
 
 return {
+
+	-- autocomplete only when asked with ctrl-space
 	{
 		"saghen/blink.cmp",
 		opts = {
@@ -15,6 +17,8 @@ return {
 			},
 		},
 	},
+
+	-- float the explorer with \
 	{
 		"nvim-neo-tree/neo-tree.nvim",
 		keys = {
