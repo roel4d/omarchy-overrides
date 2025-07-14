@@ -25,4 +25,10 @@ return {
 			{ "\\", ":Neotree reveal=true position=float toggle=true<CR>", desc = "Toggle Neo-tree Float" },
 		},
 	},
+
+	-- I don't need a tabline
+	{
+		"akinsho/bufferline.nvim",
+		enabled = false,
+	},
 }
