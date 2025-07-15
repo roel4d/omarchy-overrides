@@ -1,0 +1,10 @@
+profile "docked" {
+    output eDP-1 disable
+    output DP-3
+}
+
+profile "laptop-only" {
+    output eDP-1 enable scale 2
+}
+
+
