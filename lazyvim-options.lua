@@ -8,3 +8,4 @@
 vim.opt.relativenumber = false
 vim.opt.number = false
 vim.opt.signcolumn = "no"
+vim.opt.list = false

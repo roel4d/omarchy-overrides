@@ -26,9 +26,17 @@ return {
 		},
 	},
 
-	-- I don't need a tabline
+	-- disable tabline
 	{
 		"akinsho/bufferline.nvim",
 		enabled = false,
+	},
+
+	-- disable indent lines
+	{
+		"snacks.nvim",
+		opts = {
+			indent = { enabled = false },
+		},
 	},
 }
